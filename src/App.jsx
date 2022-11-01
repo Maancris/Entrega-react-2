@@ -23,7 +23,7 @@ function App() {
 
   }, [])
   console.log(weather)
-  console.log(weather.weather?.[0].icon)
+  
 
   const colors = [
     "#845EC2", "#D65DB1", "#FF6F91",
