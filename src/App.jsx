@@ -55,8 +55,8 @@ function App() {
           ? Math.round(centigrade) : Math.round(fahrenheit)
         }
         </b>{' '}
-        {degrees ? <img src="../src/assets/img/celsius.png" alt="" className='imgCen' />
-          : <img src="../src/assets/img/fahrenheit.png" alt="" className='imgFah' />} <br />
+        {degrees ? <i className="fa-solid fa-c imgCen"></i> 
+          : <i className="fa-solid fa-f imgFah"></i> } <br />
         <button className='buttonChange' onClick={() => setDegrees(!degrees)}> Change to {degrees ? 'Fahrenheit' : 'Centigrade'}  </button>
 
       </div>
